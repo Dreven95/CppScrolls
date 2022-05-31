@@ -1,0 +1,143 @@
+$font-margarine: 'Margarine', cursive;
+$font-sourcecodepro: 'Source Code Pro', sans-serif;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    background: #F2F7FF;
+}
+
+.site__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.profile__setings {
+    border-radius: 16px 16px 16px 16px;
+}
+
+.profile__setings-cap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 512px;
+    height: 64px;
+    background-color: #4B6289;
+    border-radius: 16px 16px 0px 0px;
+    .cancel__btn {
+        position: absolute;
+        right: 16.5px;
+    }
+}
+
+.text {
+    font-family: $font-margarine;
+    color: white;
+    font-size: 24px;
+}
+
+.cancel__btn {
+    background-color: #4B6289;
+    border: none;
+}
+
+.settings {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 512px;
+    height: 280px;
+    gap: 6px;
+    border-radius: 0px 0px 16px 16px;
+    .settings__item {
+        margin-left: 32px;
+    }
+}
+
+.settings__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    height: 48px;
+    font-family: $font-margarine;
+    font-size: 18px;
+    padding: 12px 0px;
+    color: #669EFF;
+    .right__arrow {
+        margin-right: 18.34px;
+    }
+}
+
+.mob__changes {
+    width: 382px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #52678f;
+    border-radius: 16px;
+    height: 64px;
+    padding: 8px 8px;
+    display: none;
+}
+
+.cancel__btn-mob {
+    border-radius: 16px;
+    padding: 8.5px 32px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+@media(max-width: 520px) {
+    .profile__setings-cap {
+        width: 382px;
+    }
+    .cancel__btn {
+        display: none;
+    }
+    .settings {
+        width: 382px;
+    }
+    .mob__changes {
+        display: flex;
+    }
+}
+
+@media(max-width: 390px) {
+    .profile__setings-cap {
+        width: 289px;
+        height: 48px;
+    }
+    .text {
+        font-size: 18px;
+    }
+    .settings {
+        width: 289px;
+    }
+    .settings__item {
+        font-size: 16px;
+    }
+    .mob__changes {
+        width: 289px;
+        height: 52px;
+    }
+    .cancel__btn-mob {
+        padding: 4.69px 20.69px;
+    }
+}

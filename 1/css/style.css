@@ -1,0 +1,268 @@
+.login-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+.login-page .login-form {
+  margin: auto;
+}
+
+.login-page .leftside {
+  margin-right: 0;
+}
+
+.login-page .rightside {
+  margin-left: 0;
+}
+
+.login-page::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+  height: 100vh;
+  background: url("../img/right-desk.svg") no-repeat center;
+  background-size: cover;
+}
+
+.login-page::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  height: 100vh;
+  background: url("../img/left-desk.svg") no-repeat center;
+  background-size: cover;
+}
+
+.login-form {
+  text-align: center;
+}
+
+.login-form .signinup {
+  text-align: center;
+}
+
+.login-form .site-logo {
+  text-align: center;
+}
+
+.site-logo img {
+  width: 187px;
+  height: 177px;
+}
+
+.form-normal {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.form-normal .send {
+  margin-left: 180px;
+}
+
+.form-normal .accounthaveorcreate {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.signinup {
+  font-family: "Margarine", cursive;
+  font-size: 48px;
+  font-style: normal;
+  text-align: center;
+}
+
+.inputname,
+.inputpassword,
+.inputemail,
+.inputrepeatpassword,
+.inputpasswordanother {
+  display: block;
+  font-family: "Margarine", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  width: 343px;
+  height: 63px;
+  padding-left: 30px;
+  color: #33333380;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #333333;
+}
+
+.inputname {
+  border-radius: 8px 8px 0px 0px;
+  border-bottom: none;
+}
+
+.inputpassword {
+  border-radius: 0px 0px 8px 8px;
+}
+
+.inputemail {
+  border-bottom: none;
+}
+
+.inputpasswordanother {
+  border-bottom: none;
+}
+
+.inputrepeatpassword {
+  border-radius: 0px 0px 8px 8px;
+}
+
+.send {
+  font-family: "Margarine", cursive;
+  background: #bbffb5;
+  border: 1px solid #33333380;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 0px 0px 8px 8px;
+  width: 139px;
+  height: 32px;
+  margin-left: 200px;
+  color: #33333380;
+  font-size: 20px;
+}
+
+.accounthaveorcreate a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Margarine", cursive;
+  padding-top: 10px;
+  color: #33333380;
+  border-top: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+@media (max-width: 3000px) {
+  .login-page::after {
+    width: 614px;
+  }
+  .login-page::before {
+    width: 614px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .login-page::after {
+    width: 565px;
+  }
+  .login-page::before {
+    width: 514px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .login-page::after {
+    width: 455px;
+    background-size: 455px 100vh;
+  }
+  .login-page::before {
+    width: 455px;
+    background-size: 455px 100vh;
+  }
+}
+
+@media (max-width: 1360px) {
+  .login-page::after {
+    width: 455px;
+    background-size: 455px 100vh;
+  }
+  .login-page::before {
+    width: 355px;
+    background-size: 355px 100vh;
+  }
+}
+
+@media (max-width: 1160px) {
+  .login-page::after {
+    width: 325px;
+    background: url("../img/left-mob.svg") no-repeat center;
+    background-size: 325px 100vh;
+  }
+  .login-page::before {
+    width: 325px;
+    background: url("../img/right-mob.svg") no-repeat center;
+    background-size: 325px 100vh;
+  }
+}
+
+@media (max-width: 720px) {
+  .login-page::after {
+    width: 225px;
+    background-size: 225px 100vh;
+  }
+  .login-page::before {
+    width: 225px;
+    background-size: 225px 100vh;
+  }
+  .login-page .send {
+    margin-left: 0;
+    margin: 0 auto;
+  }
+  .form-normal {
+    text-align: center;
+  }
+  .login-page .signin {
+    margin-left: 0;
+    text-align: center;
+  }
+  .form-normal .accounthaveorcreate {
+    margin-left: 0;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .login-page .inputname,
+  .login-page .inputpassword,
+  .login-page .inputemail,
+  .login-page .inputpasswordanother,
+  .login-page .inputrepeatpassword {
+    width: 207px;
+    height: 63px;
+    margin: 0 auto;
+  }
+  .send {
+    margin: 0 auto;
+  }
+  .login-page .accounthaveorcreate a {
+    font-size: 18px;
+    border-top: none;
+    position: relative;
+    padding-top: 13px;
+  }
+  .login-page .accounthaveorcreate a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0rem;
+    right: 0;
+    margin: 0 auto;
+    width: 110px;
+    height: 1px;
+    background: rgba(51, 51, 51, 0.2);
+  }
+}
+
+@media (max-width: 480px) {
+  .login-page::after {
+    display: none;
+  }
+  .login-page::before {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

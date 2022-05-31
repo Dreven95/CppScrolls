@@ -1,0 +1,149 @@
+$color-blue: #5EA5FA;
+$color-blue-dark: #599DED;
+
+$font-margarine: 'Margarine', cursive;
+
+.main-page {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    position: relative;
+    background-color: $color-blue;
+    height: 100vh;
+    width: 100vw;
+    border: 25px solid $color-blue-dark;
+    .checkmail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: -190px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: 1;
+    }
+    .blue-scroll {
+        margin: auto;
+    }
+}
+
+.blue-scroll {
+    img {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.checkmail {
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    border: 30px solid $color-blue-dark;
+    border-radius: 50%;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background: white;
+    width: 1151px;
+    height: 370px;
+    h1 {
+        margin-top: 0px;
+        padding-bottom: 45px;
+        font-size: 48px;
+        font-family: $font-margarine;
+    }
+}
+
+@media(max-width: 1200px) {
+    .blue-scroll {
+        width: 30%;
+    }
+    .checkmail {
+        width: 90%;
+        h1 {
+            font-size: 40px;
+        }
+    }
+}
+
+@media(max-width: 910px) {
+    .blue-scroll {
+        width: 40%;
+    }
+    .checkmail {
+        width: 90%;
+        h1 {
+            font-size: 32px;
+        }
+    }
+}
+
+@media(max-width: 780px) {
+    .blue-scroll {
+        width: 50%;
+    }
+    .checkmail {
+        width: 90%;
+        h1 {
+            font-size: 28px;
+        }
+    }
+}
+
+@media(max-width: 640px) {
+    .main-page {
+        border: 12px solid $color-blue-dark;
+    }
+    .blue-scroll {
+        width: 40%;
+    }
+    .checkmail {
+        height: 40%;
+        width: 90%;
+        border: 12px solid $color-blue-dark;
+        h1 {
+            font-size: 28px;
+        }
+    }
+}
+
+@media(max-width: 640px) {
+    .main-page {
+        border: 12px solid $color-blue-dark;
+    }
+    .blue-scroll {
+        width: 50%;
+    }
+    .checkmail {
+        height: 42%;
+        width: 90%;
+        border: 12px solid $color-blue-dark;
+        h1 {
+            font-size: 26px;
+        }
+    }
+}
+
+@media(max-width: 530px) {
+    .main-page {
+        border: 12px solid $color-blue-dark;
+    }
+    .blue-scroll {
+        width: 60%;
+    }
+    .checkmail {
+        height: 42%;
+        width: 90%;
+        border: 12px solid $color-blue-dark;
+        h1 {
+            font-size: 24px;
+        }
+    }
+}

@@ -1,0 +1,120 @@
+$font-margarine: 'Margarine', cursive;
+$font-sourcecodepro: 'Source Code Pro', sans-serif;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    background: #F2F7FF;
+}
+
+.site__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.confirmation__request-cap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 512px;
+    height: 96px;
+    background-color: #669EFF;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.text {
+    font-family: $font-margarine;
+    font-size: 24px;
+    color: white;
+}
+
+.confirmation__request-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 512px;
+    height: 64px;
+    background-color: #4B6289;
+    border-radius: 0px 0px 16px 16px;
+    .cancel__btn {
+        margin-left: 8px;
+    }
+    .yes__btn {
+        margin-right: 8px;
+    }
+}
+
+.cancel__btn {
+    border-radius: 16px;
+    padding: 12px 48px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #80AEFF;
+    font-size: 18px;
+    font-family: $font-margarine;
+}
+
+.yes__btn {
+    border-radius: 16px;
+    padding: 12px 48px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #80AEFF;
+    font-size: 18px;
+    font-family: $font-margarine;
+}
+
+@media(max-width: 520px) {
+    .confirmation__request-cap {
+        width: 382px;
+    }
+    .text {
+        font-size: 18px;
+    }
+    .confirmation__request-bottom {
+        width: 382px;
+    }
+    .cancel__btn {
+        padding: 12px 32px;
+    }
+    .yes__btn {
+        padding: 12px 32px;
+    }
+}
+
+@media(max-width: 390px) {
+    .confirmation__request-cap {
+        width: 287px;
+    }
+    .text {
+        font-size: 18px;
+    }
+    .confirmation__request-bottom {
+        width: 287px;
+        height: 48px;
+    }
+    .cancel__btn {
+        font-size: 14px;
+        padding: 6.5px 24px;
+    }
+    .yes__btn {
+        font-size: 14px;
+        padding: 6.5px 24px;
+    }
+}

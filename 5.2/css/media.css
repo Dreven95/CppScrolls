@@ -1,0 +1,299 @@
+@media (max-width: 1100px) {
+  .content-scroll__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content-scroll__info {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .content-scroll__inner {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .mobile__content {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .mobile__code-screen .tests-btn:before {
+    left: 46%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .code-screen {
+    display: none;
+  }
+  .content-scroll__user-info {
+    width: 380px;
+    max-width: none;
+  }
+  .content-scroll .content-scroll__box-statistics {
+    height: 32px;
+    width: 380px;
+    left: 40px;
+    top: 495px;
+  }
+  .content-scroll .content-scroll__box-statistics p {
+    font-size: 12px;
+  }
+  .content-scroll .content-scroll__box-statistics .dislikes a {
+    width: 36px;
+    height: 32px;
+  }
+  .content-scroll .content-scroll__box-statistics .dislikes a img {
+    width: 16px;
+    height: 16px;
+    margin-top: 8px;
+    margin-left: 10px;
+  }
+  .content-scroll .content-scroll__box-info {
+    height: 390px;
+    left: 40px;
+    top: 100px;
+    font-size: 14px;
+    width: 380px;
+  }
+  .content-scroll__title {
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  .content-scroll__text {
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 340px;
+    padding-left: 15px;
+  }
+  .content-scroll__inner {
+    margin: 0 auto;
+  }
+  .content-scroll__info {
+    width: 100%;
+  }
+  .content-scroll__info .content-scroll__info-top {
+    margin-left: 0px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .content-scroll__info .content-scroll__inner {
+    width: 450px;
+    height: 572px;
+  }
+  .content-scroll__info .content-scroll__elipse {
+    margin-left: auto;
+  }
+  .content-scroll__info .content-scroll__btn--scroll--accepted {
+    width: 60px;
+  }
+  .content-scroll__info .content-scroll__btn--scrols {
+    width: 60px;
+  }
+  .content-scroll__info .content-scroll__btn--next {
+    left: 0px;
+    margin-left: 8px;
+  }
+  .content-scroll__btn {
+    width: 60px;
+    height: 32px;
+  }
+  .content-scroll__btn--scrols {
+    margin-left: auto;
+  }
+  .content-scroll__btn--next {
+    width: 168px;
+  }
+  .content-scroll__btn--next .content-scroll__arrow {
+    bottom: 9px;
+  }
+  .content-scroll__btn .content-scroll__text-btn {
+    font-size: 16px;
+    line-height: 2px;
+  }
+  .content-scroll__btn .content-scroll__img--next {
+    left: 10px;
+  }
+  .mobile__code-screen {
+    display: block;
+  }
+  .code-screen__btn {
+    width: 98%;
+    right: 4px;
+    bottom: 4px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .mobile__code-screen .tests-btn:before {
+    left: 45%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mobile__code-screen .tests-btn:before {
+    left: 44%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mobile__code-screen .tests-btn:before {
+    left: 43%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .content-scroll__info .content-scroll__inner {
+    width: 380px;
+    height: 483px;
+  }
+  .content-scroll__info .content-scroll__elipse {
+    display: none;
+  }
+  .content-scroll__user-info {
+    left: 30px;
+    width: 325px;
+  }
+  .content-scroll .content-scroll__box-info {
+    left: 35px;
+    width: 315px;
+    height: 340px;
+  }
+  .content-scroll__title {
+    padding-left: 10px;
+  }
+  .content-scroll__text {
+    padding-left: 5px;
+  }
+  .content-scroll .content-scroll__box-statistics {
+    left: 35px;
+    top: 400px;
+    width: 320px;
+  }
+  .content-scroll .content-scroll__box-statistics .views {
+    margin-left: 6px;
+  }
+  .content-scroll {
+    height: 145%;
+    width: 120%;
+    background: #F6F9FF;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .content-scroll__info .content-scroll__inner {
+    width: 310px;
+    height: 394px;
+  }
+  .content-scroll__user-info {
+    left: 25px;
+    width: 265px;
+    height: 40px;
+    padding-top: 10px;
+  }
+  .content-scroll__user-info .content-scroll__user-text-block {
+    height: 40px;
+    top: 0;
+  }
+  .content-scroll__user-info .content-scroll__user-flair-block {
+    height: 40px;
+    top: 0;
+    width: 45px;
+  }
+  .content-scroll__user-info .content-scroll__user-flair-block .content-scroll__user-flair {
+    padding-top: 10px;
+    width: 20px;
+  }
+  .content-scroll__user-img {
+    width: 38px;
+    top: -1px;
+    z-index: 1;
+  }
+  .content-scroll__user-info .content-scroll__user-text-block {
+    top: -4px;
+    position: relative;
+  }
+  .content-scroll__text {
+    font-size: 12px;
+  }
+  .content-scroll__title {
+    font-size: 16px;
+    padding-left: 5px;
+    margin-bottom: 0;
+  }
+  .content-scroll__text {
+    padding-left: 0;
+    max-width: 240px;
+  }
+  .content-scroll .content-scroll__box-info {
+    width: 240px;
+    height: 225px;
+    padding-top: 10px;
+  }
+  .content-scroll .content-scroll__box-statistics {
+    left: 25px;
+    width: 265px;
+    top: 330px;
+  }
+  .content-scroll .content-scroll__box-statistics p {
+    font-size: 10px;
+  }
+  .content-scroll .content-scroll__box-statistics .views {
+    margin-left: 3px;
+  }
+  .content-scroll .content-scroll__box-statistics .dislikes a {
+    width: 32px;
+  }
+  .text__tags {
+    font-size: 14px;
+  }
+  .content-scroll__tag {
+    font-size: 12px;
+  }
+  .content-scroll__user-name {
+    font-size: 15px;
+    margin-left: 5px;
+    line-height: 20px;
+  }
+  .mobile__content--menu .menu__button--toggle {
+    padding: 15px 50px 15px 45px;
+  }
+  .mobile__content--menu .menu__button--toggle img {
+    left: 150px;
+  }
+  .mobile__content--menu .menu__button--toggle.active {
+    padding: 15px 50px 15px 59px;
+  }
+  .content-scroll__tags {
+    padding: 0;
+  }
+  .content-scroll__btn--scroll--accepted .content-scroll__img {
+    width: 30px;
+    left: 13px;
+    bottom: 5px;
+  }
+  .content-scroll__btn--scrols img {
+    width: 70px;
+  }
+  .content-scroll__btn .content-scroll__img--next {
+    width: 55px;
+  }
+  .content-scroll__btn {
+    min-width: 60px;
+  }
+  .content-scroll__btn .content-scroll__text-btn {
+    font-size: 14px;
+  }
+  .content-scroll__btn .content-scroll__img--next {
+    width: 45px;
+  }
+}
+/*# sourceMappingURL=media.css.map */

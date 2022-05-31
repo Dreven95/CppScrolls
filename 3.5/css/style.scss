@@ -1,0 +1,158 @@
+$color-blue: #5EA5FA;
+$color-blue-dark: #599DED;
+
+$font-margarine: 'Margarine', cursive;
+
+.main-page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    position: relative;
+    background-color: #5ea5fa;
+    height: 100vh;
+    width: 100vw;
+    border: 25px solid #599ded;
+  }
+  
+  .main-page .blue-scroll {
+    margin: auto;
+    margin-bottom: 200px;
+  }
+  
+  .blue-scroll img {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .checkmail {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    border: 30px solid #599ded;
+    border-radius: 50%;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    bottom: -190px;
+    background: white;
+    width: 1151px;
+    height: 370px;
+  }
+  
+  .checkmail h1 {
+    margin-top: 0px;
+    padding-bottom: 45px;
+    font-size: 48px;
+    font-family: 'Margarine', cursive;
+  }
+  
+  @media (max-width: 1200px) {
+    .blue-scroll {
+      width: 30%;
+    }
+    .checkmail {
+      width: 90%;
+    }
+    .checkmail h1 {
+      font-size: 40px;
+    }
+  }
+  
+  @media (max-width: 910px) {
+    .blue-scroll {
+      width: 40%;
+    }
+    .checkmail {
+      width: 90%;
+    }
+    .checkmail h1 {
+      font-size: 32px;
+    }
+  }
+  
+  @media (max-width: 780px) {
+    .blue-scroll {
+      width: 50%;
+    }
+    .checkmail {
+      width: 90%;
+    }
+    .checkmail h1 {
+      font-size: 28px;
+    }
+  }
+  
+  @media (max-width: 670px) {
+    .main-page {
+      border: 12px solid #599ded;
+    }
+    .blue-scroll {
+      width: 40%;
+    }
+    .checkmail {
+      height: 32%;
+      width: 90%;
+      border: 12px solid #599ded;
+      bottom: -130px;
+      padding-bottom: 70px;
+    }
+    .checkmail h1 {
+      font-size: 28px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .main-page {
+      border: 12px solid #599ded;
+    }
+    .blue-scroll {
+      width: 50%;
+    }
+    .checkmail {
+      height: 32%;
+      width: 90%;
+      border: 12px solid #599ded;
+    }
+    .checkmail h1 {
+      font-size: 26px;
+    }
+  }
+  
+  @media (max-width: 570px) {
+    .main-page {
+      border: 12px solid #599ded;
+    }
+    .blue-scroll {
+      width: 60%;
+    }
+    .checkmail {
+      height: 32%;
+      width: 90%;
+      border: 12px solid #599ded;
+    }
+    .checkmail h1 {
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+  @media (max-width: 420px) {
+    .checkmail {
+      height: 32%;
+    }
+    .checkmail h1 {
+      font-size: 15px;
+      line-height: 22px;
+    }
+  }
